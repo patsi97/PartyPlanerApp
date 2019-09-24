@@ -1,4 +1,4 @@
-﻿import { Component } from '@angular/core';
+import { Component  } from '@angular/core';
 
 @Component({
     selector: 'app-party-event-location',
@@ -6,7 +6,8 @@
     styleUrls: ['./party-event-location.component.css']
 })
 /** party-event-location component*/
-export class PartyEventLocationComponent {
+export class PartyEventLocationComponent  {
+   
     /** party-event-location ctor */
     constructor() {
 
