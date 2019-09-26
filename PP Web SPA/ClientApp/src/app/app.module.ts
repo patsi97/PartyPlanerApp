@@ -29,13 +29,13 @@ import { DevExtremeModule } from 'devextreme-angular';
     PartyEventFoodComponent,
     PartyEventDrinksComponent,
     PartyEventGamesComponent,
-    PartyEventMusicComponent,
-    DevExtremeModule,
+    PartyEventMusicComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    DevExtremeModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
