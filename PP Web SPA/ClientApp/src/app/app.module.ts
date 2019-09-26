@@ -11,7 +11,11 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PartyEventComponent } from './party-event/party-event.component';
 import { PartyEventLocationComponent } from './party-event/party-event-location/party-event-location.component';
-
+import { PartyEventFoodComponent } from './party-event/party-event-food/party-event-food.component';
+import { PartyEventDrinksComponent } from './party-event/party-event-drinks/party-event-drinks.component';
+import { PartyEventGamesComponent } from './party-event/party-event-games/party-event-games.component';
+import { PartyEventMusicComponent } from './party-event/party-event-music/party-event-music.component';
+import { DevExtremeModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { PartyEventLocationComponent } from './party-event/party-event-location/
     FetchDataComponent,
     PartyEventComponent,
     PartyEventLocationComponent,
-
+    PartyEventFoodComponent,
+    PartyEventDrinksComponent,
+    PartyEventGamesComponent,
+    PartyEventMusicComponent,
+    DevExtremeModule,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

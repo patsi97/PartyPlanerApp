@@ -1,13 +1,6 @@
-<div style="border: 1px solid black">Party event</div>
+<div style="border: 1px solid black">Party event - title</div>
 
-<details style="display: block;">
-  <summary>Location</summary>
-  <div app-party-event-location></div>
-  <div class="row">
-    <div class="col-md-2">&nbsp;&nbsp;</div>
-    <div class="col-md-8>">  <app-party-event-location></app-party-event-location></div>
-  </div>
-</details>
+<app-party-event-location></app-party-event-location>
 
 <details style="display: block;">
   <summary>Date</summary>
@@ -30,33 +23,10 @@
   </form>
 </details>
 
-<details style="display: block;">
-  <summary>Food</summary>
-  <form>
-    <input type="text" name="Food">
-  </form>
-</details>
-
-<details style="display: block;">
-  <summary>Drinks</summary>
-  <form>
-    <input type="text" name="Drinks">
-  </form>
-</details>
-
-<details style="display: block;">
-  <summary>Music</summary>
-  <form>
-    <input type="text" name="Music">
-  </form>
-</details>
-
-<details style="display: block;">
-  <summary>Games</summary>
-  <form>
-    <input type="text" name="Games">
-  </form>
-</details>
+<app-party-event-food></app-party-event-food>
+<app-party-event-music></app-party-event-music>
+<app-party-event-drinks></app-party-event-drinks>
+<app-party-event-games></app-party-event-games>
 
 <input type="submit" value="Submit">
 

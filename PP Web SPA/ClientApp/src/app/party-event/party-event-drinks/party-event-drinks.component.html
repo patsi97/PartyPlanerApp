@@ -1,0 +1,14 @@
+<details style="display: block;">
+  <summary>Drinks</summary>
+  <div class="row">
+    <div class="col-md-2">&nbsp;&nbsp;</div>
+    <dx-data-grid id="gridContainer"
+                  [dataSource]="customers"
+                  [columns]="['CompanyName', 'City', 'State', 'Phone', 'Fax']"
+                  [showBorders]="true">
+    </dx-data-grid>
+    <form>
+      <input type="text" name="Drinks">
+    </form>
+  </div>
+</details>
