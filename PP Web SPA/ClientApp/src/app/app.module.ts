@@ -17,6 +17,7 @@ import { PartyEventGamesComponent } from './party-event/party-event-games/party-
 import { PartyEventMusicComponent } from './party-event/party-event-music/party-event-music.component';
 import { DevExtremeModule } from 'devextreme-angular';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { DevExtremeModule } from 'devextreme-angular';
     HttpClientModule,
     FormsModule,
     DevExtremeModule,
+    BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
