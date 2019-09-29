@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PP API", "PP API\PP API.csproj", "{6CC4FB3B-602A-4EC6-87D7-4D9B885F3819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PP.API", "PP API\PP.API.csproj", "{6CC4FB3B-602A-4EC6-87D7-4D9B885F3819}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DD6DBF7-E0C7-4EF0-91B4-CB9D858FA443}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.txt = Readme.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PP Web SPA", "PP Web SPA\PP Web SPA.csproj", "{020326E1-96B1-4372-BC96-23A4476061CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PP Web SPA", "PP Web SPA\PP Web SPA.csproj", "{020326E1-96B1-4372-BC96-23A4476061CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

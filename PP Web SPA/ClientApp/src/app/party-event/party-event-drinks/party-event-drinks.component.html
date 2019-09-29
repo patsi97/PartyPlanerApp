@@ -3,8 +3,7 @@
   <div class="row">
     <div class="col-md-2">&nbsp;&nbsp;</div>
     <dx-data-grid id="gridContainer"
-                  [dataSource]="customers"
-                  [columns]="['CompanyName', 'City', 'State', 'Phone', 'Fa']"
+                  dataSource="http://localhost:52459/api/partyevent"
                   [showBorders]="true">
     </dx-data-grid>
     <form>
@@ -12,3 +11,4 @@
     </form>
   </div>
 </details>
+
